@@ -97,7 +97,8 @@
     function download() {
         var isiOS = !!navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
         if (isiOS) {
-          window.location.href = "itms-services://?action=download-manifest&url=https://221.239.58.212:50085/hengan/PhantomStock.plist";
+          // window.location.href = "itms-services://?action=download-manifest&url=https://221.239.58.212:50085/hengan/PhantomStock.plist";
+          window.location.href = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/tjtftech/PhantomStock/master/hengan/PhantomStock.plist";
           // window.location.href = "http://221.239.58.212:50093/hengan/PhantomStock.ipa";
         } else {
             window.location.href = "http://221.239.58.212:50093/hengan/PhantomStock.apk";
