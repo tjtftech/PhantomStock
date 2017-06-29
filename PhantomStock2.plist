@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+       <dict>
+              <key>items</key>
+              <array>
+                     <dict>
+                            <key>assets</key>
+                            <array>
+                                   <dict>
+                                          <key>kind</key>
+                                          <string>software-package</string>
+                                          <key>url</key>
+                                          <!-- <string>https://221.239.58.212:50085/hengan/PhantomStock.ipa</string> -->
+                                          <string>https://raw.githubusercontent.com/tjtftech/PhantomStock/master/PhantomStock.ipa</string>
+                                          <!-- <string>https://github.com/tjtftech/PhantomStock/raw/ab2cdc5d14d8adf1aa327ceb312085824437e787/hengan/PhantomStock.ipa</string> -->
+
+                                   </dict>
+                                   <dict>
+                                          <key>kind</key>
+                                          <string>full-size-image</string>
+                                          <key>needs-shine</key>
+                                          <true/>
+                                          <key>url</key>
+                                          <!-- <string>https://221.239.58.212:50085/hengan/hasl.png</string> -->
+                                          <string>https://raw.githubusercontent.com/tjtftech/PhantomStock/master/hasl.png</string>
+                                   </dict>
+                                   <dict>
+                                          <key>kind</key>
+                                          <string>display-image</string>
+                                          <key>needs-shine</key>
+                                          <true/>
+                                          <key>url</key>
+                                          <!-- <string>https://221.239.58.212:50085/hengan/hasl.png</string> -->
+                                          <string>https://raw.githubusercontent.com/tjtftech/PhantomStock/master/hasl.png</string>
+                                   </dict>
+                            </array>
+                            <key>metadata</key>
+                            <dict>
+                                   <key>bundle-identifier</key>
+                                   <string>com.tfkj.simstock</string>
+                                   <key>bundle-version</key>
+                                   <string>0.0.1</string>
+                                   <key>kind</key>
+                                   <string>software</string>
+                                   <key>title</key>
+                                   <string>PhantomStock</string>
+                            </dict>
+                     </dict>
+              </array>
+       </dict>
+</plist>
